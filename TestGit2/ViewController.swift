@@ -17,6 +17,8 @@ class ViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         //didsomethingtochange
+        //远程GitHub修改后（添加readme.md）后，尝试再次进行push操作发现失败。
+        //此时应该source controll-pull-再才能进行push。
     }
 
 }
